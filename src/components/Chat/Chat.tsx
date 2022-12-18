@@ -132,7 +132,7 @@ export default function Chat() {
       <div className="h-[400px] flex-grow overflow-y-scroll pb-20" ref={ref}>
         {!messages.length && (
           <div className="flex h-full w-full flex-col items-center justify-center space-y-2">
-            <div className="text-xl font-semibold">Chat bot starter!</div>
+            <div className="text-xl font-semibold">👋 Hello! Am TupChat by Wisdak</div>
           </div>
         )}
         <ul>
